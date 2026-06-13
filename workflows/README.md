@@ -19,7 +19,44 @@ The workflow automates the complete content creation pipeline, including:
 - Production tracking
 
 ---
+## 🔧 Configuration Required
 
+Before running this workflow, replace the placeholder values in the workflow configuration with your own credentials and service identifiers.
+
+### Required API Keys
+
+- `YOUR_PIAPI_KEY_HERE`
+- `YOUR_ELEVENLABS_API_KEY_HERE`
+- `YOUR_CREATOMATE_API_KEY_HERE`
+
+### Required Service IDs
+
+- `YOUR_CREATOMATE_TEMPLATE_ID_HERE`
+- `YOUR_GOOGLE_SHEET_ID_HERE`
+- `YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE`
+
+### Reconnect Credentials in n8n
+
+After importing the workflow, reconnect the following credentials inside your n8n instance:
+
+- OpenAI Credentials
+- Google Sheets Credentials
+- Google Drive Credentials
+
+### Setup Checklist
+
+- [ ] Add PiAPI API Key
+- [ ] Add ElevenLabs API Key
+- [ ] Add Creatomate API Key
+- [ ] Configure Creatomate Template ID
+- [ ] Configure Google Sheet ID
+- [ ] Configure Google Drive Folder
+- [ ] Connect OpenAI Credentials
+- [ ] Connect Google Sheets Credentials
+- [ ] Connect Google Drive Credentials
+- [ ] Run a test execution
+
+> **Note:** This workflow is distributed without credentials, API keys, or private identifiers for security reasons. All required services must be configured using your own accounts before execution.
 ## Workflow Architecture
 
 Input Idea
@@ -41,6 +78,8 @@ Final Video Output
 ---
 
 ## Technologies Used
+
+
 
 ### Automation Platform
 
