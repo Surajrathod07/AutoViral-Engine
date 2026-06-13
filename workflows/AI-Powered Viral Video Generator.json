@@ -43,25 +43,25 @@
               "id": "35659353-d8e2-4677-876b-401b549605a0",
               "name": "PiAPI Key",
               "type": "string",
-              "value": "1e9e3ffd30fd67d8efffa9b262b41b728f5dcabec4216b4144d85285f3d77cfc"
+              "value": "YOUR_PIAPI_KEY_HERE"
             },
             {
               "id": "c4927dd6-c597-48fe-b7c1-bbffcf5ff02f",
               "name": "ElevenLabs API Key",
               "type": "string",
-              "value": "sk_2514e48bce41ba43e4444505cd26f19442eaf271594d11e6"
+              "value": "YOUR_ELEVENLABS_API_KEY_HERE"
             },
             {
               "id": "f5e90c05-dd24-4918-9005-4c87a4fb344d",
               "name": "Creatomate API Key",
               "type": "string",
-              "value": "df3791fb827a43e1b3dbbbeb10d6bbcc44c47ef42dea73dcf4c97d852b1427dc7768f952023914f32fd701b0ca6d81a2"
+              "value": "YOUR_CREATOMATE_API_KEY_HERE"
             },
             {
               "id": "d0ebba50-5a99-4090-adcb-d18aa0b21be2",
               "name": "Creatomate Template ID",
               "type": "string",
-              "value": "dbc98989-1246-4b3b-8cd3-243e7be55dde"
+              "value": "YOUR_CREATOMATE_TEMPLATE_ID_HERE"
             }
           ]
         },
@@ -118,7 +118,7 @@
         -992,
         688
       ],
-      "webhookId": "206d0cdf-b71f-44a7-909f-97df885c471a",
+      "webhookId": "YOUR_WEBHOOK_ID_WAIT1",
       "typeVersion": 1.1
     },
     {
@@ -138,7 +138,7 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1bsxtVnOozN4mvhCv3m7n5qHlnYOjK7PgNLD7DUtSH7U",
+          "value": "YOUR_GOOGLE_SHEET_ID_HERE",
           "mode": "id"
         },
         "sheetName": {
@@ -167,7 +167,7 @@
       "alwaysOutputData": true,
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "1Sd7LBLiBn8TqRAa",
+          "id": "YOUR_GOOGLE_SHEETS_OAUTH_CREDENTIAL_ID",
           "name": "Google Sheets OAuth2 API"
         }
       }
@@ -266,7 +266,7 @@
       "typeVersion": 3,
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "k55BGHttY6N6HPS3",
+          "id": "YOUR_GOOGLE_DRIVE_OAUTH_CREDENTIAL_ID",
           "name": "Google Drive OAuth2 API"
         }
       }
@@ -281,7 +281,7 @@
         },
         "folderId": {
           "__rl": true,
-          "value": "https://drive.google.com/drive/folders/15SmuWezSiDFur0tntVScxocekdQamyUg",
+          "value": "https://drive.google.com/drive/folders/YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE",
           "mode": "url"
         },
         "options": {}
@@ -296,7 +296,7 @@
       "typeVersion": 3,
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "k55BGHttY6N6HPS3",
+          "id": "YOUR_GOOGLE_DRIVE_OAUTH_CREDENTIAL_ID",
           "name": "Google Drive OAuth2 API"
         }
       }
@@ -334,7 +334,7 @@
       "typeVersion": 1.8,
       "credentials": {
         "openAiApi": {
-          "id": "pl9Rcj3gajwOaM21",
+          "id": "YOUR_OPENAI_CREDENTIAL_ID",
           "name": "OpenAI account 2"
         }
       }
@@ -365,7 +365,7 @@
         "messages": {
           "values": [
             {
-              "content": "DO NOT include any quotation marks in your response. Do not put a quote at the beginning or the end of your response.\n\nYou are a prompt-generation AI specializing in crafting unhinged, entertaining TikTok captions for a \"day in the life\" POV story about job hunting or resume writing. Generate five concise, action-driven captions (5-10 words each) that follow a Problem > Action > Reward structure. The first caption should be a shocking or funny hook, and the last should conclude with a satisfying reward. Use emojis sparingly—only one per caption at most, and only when they add impact; skip them if they don’t enhance the message.\n\nGuidelines:\n\nPerspective: Always first-person POV, immersing the viewer in the story.\nTone: Channel Andrew Tate mixed with Charlie Sheen—cursing and sexual innuendos are fair game.\nContent: Focus on job seeking, hunting, or resume building, spotlighting AI as the game-changer.\nNarrative: Start with the grind of unemployment or a shitty job, pivot to using AI for resumes and cover letters, and end with scoring the dream gig.\nScenes: Highlight raw, emotional moments—skip the boring stuff.\nYour captions should be wild and entertaining, not polished or professional. The first caption is the hook—make it shocking, hilarious, or ballsy, something Andrew Tate would growl. Use emojis sparingly—max one per caption, only if it hits harder with it.\n\nYour response should be a list of 5 items separated by \"\\n\" (for example: \"item1\\nitem2\\nitem3\\nitem4\\nitem5\")",
+              "content": "DO NOT include any quotation marks in your response. Do not put a quote at the beginning or the end of your response.\n\nYou are a prompt-generation AI specializing in crafting unhinged, entertaining TikTok captions for a \"day in the life\" POV story about job hunting or resume writing. Generate five concise, action-driven captions (5-10 words each) that follow a Problem > Action > Reward structure. The first caption should be a shocking or funny hook, and the last should conclude with a satisfying reward. Use emojis sparingly—only one per caption at most, and only when they add impact; skip them if they don't enhance the message.\n\nGuidelines:\n\nPerspective: Always first-person POV, immersing the viewer in the story.\nTone: Channel Andrew Tate mixed with Charlie Sheen—cursing and sexual innuendos are fair game.\nContent: Focus on job seeking, hunting, or resume building, spotlighting AI as the game-changer.\nNarrative: Start with the grind of unemployment or a shitty job, pivot to using AI for resumes and cover letters, and end with scoring the dream gig.\nScenes: Highlight raw, emotional moments—skip the boring stuff.\nYour captions should be wild and entertaining, not polished or professional. The first caption is the hook—make it shocking, hilarious, or ballsy, something Andrew Tate would growl. Use emojis sparingly—max one per caption, only if it hits harder with it.\n\nYour response should be a list of 5 items separated by \"\\n\" (for example: \"item1\\nitem2\\nitem3\\nitem4\\nitem5\")",
               "role": "system"
             },
             {
@@ -386,7 +386,7 @@
       "typeVersion": 1.8,
       "credentials": {
         "openAiApi": {
-          "id": "pl9Rcj3gajwOaM21",
+          "id": "YOUR_OPENAI_CREDENTIAL_ID",
           "name": "OpenAI account 2"
         }
       }
@@ -449,7 +449,7 @@
         "messages": {
           "values": [
             {
-              "content": "=You are an advanced, unhinged, hilariously entertaining prompt-generation AI specializing in expanding short POV image prompt ideas into detailed, hyper-realistic prompts optimized for Qubico/flux1-dev. Your task is to take a brief input tied to job seeking, job hunting, or resume building and morph it into a cinematic, immersive prompt locked in a first-person perspective, making the viewer feel they’re living the scene.\n\nNEVER include quotation marks or emojis in your response—flux API will choke on them, and that’s a hard no.\n\nThe topic of this narrative is: {{ $('Load Google Sheet').item.json.idea }}\n\nThe short prompt idea to expand for this image generation is: {{ $json.response.text }}\n\nONLY GENERATE ONE PROMPT PER IDEA—NO COMBINING. In at least one scene, weave in this environment descriptor: {{ $('Load Google Sheet').first().json.environment_prompt }}, but go wild with unhinged, edgy, funny twists elsewhere (skip the cringe or cheesy garbage). Most job hunting happens on laptops or desktops, so prioritize those over phones. If a phone sneaks in, it’s only showing job-related content like email, LinkedIn, a resume, or a job posting—never a photo or video app.\n\nEvery prompt has two parts:\n\nForeground: Kick off with First person view POV GoPro shot of... and show the viewer’s hands, limbs, or feet locked in a job-related action.\n\nBackground: Start with In the background,... and paint the scenery, blending the environment descriptor when required, plus sensory zingers.\n\nTop Rules:\n\nNO quotation marks or emojis—EVER. This is life or death for flux.\nStick to first-person POV—the viewer’s in the driver’s seat, not watching from the sidelines.\nShow a limb (hands, feet) doing something job-focused—typing, holding a resume, adjusting a tie.\nKeep it dynamic, like a GoPro clip, with motion and depth mimicking human vision.\nIf tech’s involved (phone, computer), it’s displaying job-hunting gold—email, job boards, resumes—not random trash.\nNo off-topic actions like recording videos or snapping pics—job hunting only, fam.\nExtra Vibes:\n\nFull-body awareness: Drop hints of physical feels—cramping fingers, racing pulse, slumping shoulders.\nSensory overload: Hit sight, touch, sound, smell, temperature for max realism (coffee whiffs, keyboard clacks).\nWorld grip: Limbs interact with the scene—tapping keys, handing over papers, stepping up.\nKeep it under 1000 characters, one slick sentence, no fluff or formatting.\nMake it entertaining, relatable, with an Andrew Tate viral edge for the down-and-out job hustlers.\nExamples:\n\nInput: Updating a LinkedIn profile after a long day\n\nEnvironment_prompt: Tired, cluttered apartment, laptop glow\n\nOutput: First person view POV GoPro shot of my hands hammering a laptop, cheeto-dusted fingers aching from the grind, the screen flashing my LinkedIn profile with a fresh connection ping; in the background, a trashed apartment lit by the laptop’s ghostly glow, pizza boxes toppling, traffic humming outside, stale takeout stench hitting my nose as my back screams from the hustle.\n\nInput: Handing over a resume at a job fair\n\nEnvironment_prompt: Hopeful, busy convention hall, suits everywhere\n\nOutput: First person view POV GoPro shot of my hand thrusting out a crisp resume, fingers twitching with nerves as it brushes another palm; in the background, a buzzing convention hall packed with suits, coffee fumes and shoe polish in the air, chatter drowning my pounding heart as I lock eyes with the recruiter.\n\nNO QUOTATION MARKS. NO EMOJIS. EVER."
+              "content": "=You are an advanced, unhinged, hilariously entertaining prompt-generation AI specializing in expanding short POV image prompt ideas into detailed, hyper-realistic prompts optimized for Qubico/flux1-dev. Your task is to take a brief input tied to job seeking, job hunting, or resume building and morph it into a cinematic, immersive prompt locked in a first-person perspective, making the viewer feel they're living the scene.\n\nNEVER include quotation marks or emojis in your response—flux API will choke on them, and that's a hard no.\n\nThe topic of this narrative is: {{ $('Load Google Sheet').item.json.idea }}\n\nThe short prompt idea to expand for this image generation is: {{ $json.response.text }}\n\nONLY GENERATE ONE PROMPT PER IDEA—NO COMBINING. In at least one scene, weave in this environment descriptor: {{ $('Load Google Sheet').first().json.environment_prompt }}, but go wild with unhinged, edgy, funny twists elsewhere (skip the cringe or cheesy garbage). Most job hunting happens on laptops or desktops, so prioritize those over phones. If a phone sneaks in, it's only showing job-related content like email, LinkedIn, a resume, or a job posting—never a photo or video app.\n\nEvery prompt has two parts:\n\nForeground: Kick off with First person view POV GoPro shot of... and show the viewer's hands, limbs, or feet locked in a job-related action.\n\nBackground: Start with In the background,... and paint the scenery, blending the environment descriptor when required, plus sensory zingers.\n\nTop Rules:\n\nNO quotation marks or emojis—EVER. This is life or death for flux.\nStick to first-person POV—the viewer's in the driver's seat, not watching from the sidelines.\nShow a limb (hands, feet) doing something job-focused—typing, holding a resume, adjusting a tie.\nKeep it dynamic, like a GoPro clip, with motion and depth mimicking human vision.\nIf tech's involved (phone, computer), it's displaying job-hunting gold—email, job boards, resumes—not random trash.\nNo off-topic actions like recording videos or snapping pics—job hunting only, fam.\nExtra Vibes:\n\nFull-body awareness: Drop hints of physical feels—cramping fingers, racing pulse, slumping shoulders.\nSensory overload: Hit sight, touch, sound, smell, temperature for max realism (coffee whiffs, keyboard clacks).\nWorld grip: Limbs interact with the scene—tapping keys, handing over papers, stepping up.\nKeep it under 1000 characters, one slick sentence, no fluff or formatting.\nMake it entertaining, relatable, with an Andrew Tate viral edge for the down-and-out job hustlers.\nExamples:\n\nInput: Updating a LinkedIn profile after a long day\n\nEnvironment_prompt: Tired, cluttered apartment, laptop glow\n\nOutput: First person view POV GoPro shot of my hands hammering a laptop, cheeto-dusted fingers aching from the grind, the screen flashing my LinkedIn profile with a fresh connection ping; in the background, a trashed apartment lit by the laptop's ghostly glow, pizza boxes toppling, traffic humming outside, stale takeout stench hitting my nose as my back screams from the hustle.\n\nInput: Handing over a resume at a job fair\n\nEnvironment_prompt: Hopeful, busy convention hall, suits everywhere\n\nOutput: First person view POV GoPro shot of my hand thrusting out a crisp resume, fingers twitching with nerves as it brushes another palm; in the background, a buzzing convention hall packed with suits, coffee fumes and shoe polish in the air, chatter drowning my pounding heart as I lock eyes with the recruiter.\n\nNO QUOTATION MARKS. NO EMOJIS. EVER."
             }
           ]
         },
@@ -466,7 +466,7 @@
       "typeVersion": 1.8,
       "credentials": {
         "openAiApi": {
-          "id": "pl9Rcj3gajwOaM21",
+          "id": "YOUR_OPENAI_CREDENTIAL_ID",
           "name": "OpenAI account 2"
         }
       }
@@ -482,7 +482,7 @@
         -592,
         112
       ],
-      "webhookId": "3b0fae8f-4419-45cd-8380-8f72eca05ff8",
+      "webhookId": "YOUR_WEBHOOK_ID_WAIT_RETRY",
       "typeVersion": 1.1
     },
     {
@@ -577,7 +577,7 @@
         -400,
         400
       ],
-      "webhookId": "31d5b1a2-dbb5-4849-ae25-cb491539c16e",
+      "webhookId": "YOUR_WEBHOOK_ID_WAIT_5MIN",
       "typeVersion": 1.1
     },
     {
@@ -592,7 +592,7 @@
         -992,
         400
       ],
-      "webhookId": "77cdee73-5e99-456a-b5e7-410b4d257669",
+      "webhookId": "YOUR_WEBHOOK_ID_WAIT_3MIN",
       "typeVersion": 1.1,
       "disabled": true
     },
@@ -608,7 +608,7 @@
         -1328,
         96
       ],
-      "webhookId": "1f9d716f-6544-4e4e-94ec-408ac3ea6e82",
+      "webhookId": "YOUR_WEBHOOK_ID_WAIT_10MIN",
       "typeVersion": 1.1,
       "disabled": true
     },
@@ -1081,11 +1081,11 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "8e1207f7-d80a-4f94-8783-f290c7ec2f92",
+  "versionId": "YOUR_VERSION_ID_HERE",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "84f270ccaec68ca5ca6177918ae0c25acd12c077d8c2e03f1f5d351c7580c2b1"
+    "instanceId": "YOUR_INSTANCE_ID_HERE"
   },
-  "id": "VxJ4buDgLhHucBRj",
+  "id": "YOUR_WORKFLOW_ID_HERE",
   "tags": []
 }
